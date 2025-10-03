@@ -58,12 +58,11 @@ int main(int argc, char *argv[]) {
 
     int n = argc-1;
     p = new int[n];
-    cout << "What are the numbers? " << endl;
     for (i = 0; i < n; i++){
         p[i] = atoi(argv[i+1]);
     }
 
-        /*cout << "How many numbers? " << endl;
+    /*cout << "How many numbers? " << endl;
     cin >> n;
     p = new int[n]; 
     cout << "What are the numbers? " << endl;
