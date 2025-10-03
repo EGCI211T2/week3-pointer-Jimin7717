@@ -35,24 +35,7 @@ cout<<setw(3)<<*pa<<endl;
 
 return 0;
 */
-/*
 
-int main(int argc, char *argv[]) {
-    int *p, *pa, *pb, i, temp;
-    int n = argc - 1;  // Number of numbers passed
-
-    if (n <= 0) {
-        cout << "Please provide numbers as command line arguments." << endl;
-        return 1;
-    }
-
-    p = new int[n];
-
-    // Convert command line arguments to integers
-    for (i = 0; i < n; i++) {
-        p[i] = atoi(argv[i + 1]);  // argv[0] is program name, so start from argv[1]
-    }
-*/
 int main(int argc, char *argv[]) {
     int *p, *pa, *pb, i, temp;
 
